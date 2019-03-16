@@ -1,5 +1,5 @@
 import API from 'goals-todos-api';
-import showConnectionError from '../shared/error';
+import showConnectionError from '../util/error';
 
 // constants
 export const ADD_GOAL = 'ADD_GOAL';
