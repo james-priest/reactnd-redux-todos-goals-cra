@@ -1,13 +1,10 @@
 import API from 'goals-todos-api';
+import showConnectionError from '../shared/error';
 
 // constants
 export const ADD_TODO = 'ADD_TODO';
 export const REMOVE_TODO = 'REMOVE_TODO';
 export const TOGGLE_TODO = 'TOGGLE_TODO';
-
-const showConnectionError = () => {
-  alert('Connection error occurred. Please try again.');
-};
 
 // action creators
 function addTodo(todo) {

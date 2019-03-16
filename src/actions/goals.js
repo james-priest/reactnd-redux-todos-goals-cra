@@ -1,12 +1,9 @@
 import API from 'goals-todos-api';
+import showConnectionError from '../shared/error';
 
 // constants
 export const ADD_GOAL = 'ADD_GOAL';
 export const REMOVE_GOAL = 'REMOVE_GOAL';
-
-const showConnectionError = () => {
-  alert('Connection error occurred. Please try again.');
-};
 
 // action creators
 function addGoal(goal) {
